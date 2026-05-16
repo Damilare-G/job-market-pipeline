@@ -59,3 +59,14 @@ python main.py
 - FastAPI endpoint
 - Automated scheduling
 - Dashboard visualizations
+
+## API Extension
+
+The project includes a FastAPI-based API layer (`api.py`) for exposing processed job-market data through REST endpoints.
+
+Endpoints include:
+- `/jobs`
+- `/jobs/count`
+- `/locations`
+
+Note: Running FastAPI locally may require adjusting Windows security or application control policies depending on the system environment.
